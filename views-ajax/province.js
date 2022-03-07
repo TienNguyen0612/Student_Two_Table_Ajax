@@ -1,7 +1,7 @@
 let index = 0;
 
 function displayStudentList() {
-    window.open("student.html");
+    window.open("student.html", "_self");
 }
 
 function getProvinces() {

@@ -1,7 +1,7 @@
 let student = 0;
 
 function displayProvinceList() {
-    window.open("province.html");
+    window.open("province.html", "_self");
 }
 
 function displayFormCreate() {
