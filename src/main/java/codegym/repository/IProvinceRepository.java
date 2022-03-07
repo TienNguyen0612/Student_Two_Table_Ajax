@@ -1,0 +1,11 @@
+package codegym.repository;
+
+import codegym.model.Province;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+@Repository
+@Transactional
+public interface IProvinceRepository extends CrudRepository<Province, Long> {
+}
